@@ -4,7 +4,8 @@
   "info": {
     "singularName": "post",
     "pluralName": "posts",
-    "displayName": "Post"
+    "displayName": "Post",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,32 +24,13 @@
       "type": "text",
       "required": true
     },
-    "featuredImage": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
-    },
     "slug": {
       "type": "uid",
       "required": true
     },
-    "author": {
+    "featuredImageUrl": {
       "type": "string",
       "required": true
-    },
-    "authorBio": {
-      "type": "richtext",
-      "required": true
-    },
-    "authorAvatar": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
     }
   }
 }
